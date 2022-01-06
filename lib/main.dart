@@ -14,7 +14,7 @@ void main() {
               ),
               Text(
                 "Bonjour la famille",
-                style: TextStyle(fontFamily: "SourceSansPro-Regular", fontSize: 28, color: Colors.teal.shade100, fontWeight: FontWeight.bold, letterSpacing: LetterSpacing.2.5),
+                style: TextStyle(fontFamily: "SourceSansPro-Regular", fontSize: 28, color: Colors.teal.shade100, fontWeight: FontWeight.bold, letterSpacing: 2.5),
               ),
             ],
           ),
