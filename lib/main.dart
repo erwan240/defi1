@@ -14,7 +14,7 @@ void main() {
               ),
               Text(
                 "Bonjour la famille",
-                style: TextStyle(fontFamily: SourceSansPro - Regular),
+                style: TextStyle(fontFamily: "SourceSansPro-Regular"),
               ),
             ],
           ),
