@@ -6,39 +6,15 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Container(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
-                  color: Colors.redAccent,
-                  height: 700,
-                  width: 100,
+                CircleAvatar(
+                  backgroundImage: NetworkImage("https://images.bfmtv.com/e2I_ZxiGrfuDUU1BDOOq0dMY44M=/3x5:4947x2786/640x0/images/-128791.jpg"),
+                  radius: 80,
                 ),
-                Container(
-                  height: 730,
-                  width: 100,
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.amber,
-                      ),
-                      Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.green,
-                      )
-                    ],
-                  ),
-                ),
-                Container(
-                  width: 100,
-                  height: 730,
-                  color: Colors.lightBlueAccent,
-                )
+                Text("Erwan"),
               ],
             ),
           ),
