@@ -12,6 +12,7 @@ void main() {
               children: [
                 CircleAvatar(
                   backgroundImage: NetworkImage("https://images.bfmtv.com/e2I_ZxiGrfuDUU1BDOOq0dMY44M=/3x5:4947x2786/640x0/images/-128791.jpg"),
+                  radius: 60,
                 ),
               ],
             ),
