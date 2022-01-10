@@ -60,7 +60,7 @@ flutter:
      - family: SourceSansPro-Regular
        fonts:
          - asset: fonts/SourceSansPro-Regular.ttf
-     - family: 
+     - family: Licorice-Regular
        fonts:
          - asset: fonts/Licorice-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
