@@ -60,6 +60,9 @@ flutter:
      - family: SourceSansPro-Regular
        fonts:
          - asset: fonts/SourceSansPro-Regular.ttf
+     - family: Licorice-Regular
+       fonts:
+         - asset: fonts/Licorice-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
