@@ -16,7 +16,7 @@ void main() {
                 ),
                 Text(
                   "Erwan H.",
-                  style: TextStyle(fontFamily: "Licorice-Regular", fontSize: 18, color: Colors.white),
+                  style: TextStyle(fontFamily: "Licorice-Regular", fontSize: 30, color: Colors.white),
                 ),
               ],
             ),
