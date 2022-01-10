@@ -1,28 +1,88 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
+  runApp(Defi());
+}
+
+class Defi extends StatelessWidget {
+  const Defi({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
-        body: Center(
-          child: Column(
-            children: [
-              CircleAvatar(
-                backgroundImage: NetworkImage('https://static.lpnt.fr/images/2017/07/03/9271209lpw-9271595-article-francepoliticsislamreligiondinnerramadan-jpg_4395055_660x281.jpg'),
-                radius: 100,
-              ),
-              Padding(
-                padding: EdgeInsets.all(16.0),
+        body: SafeArea(
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                CircleAvatar(
+                  backgroundImage: NetworkImage("https://pbs.twimg.com/profile_images/454077174236975104/HBDreNiB.jpeg"),
+                  radius: 60,
+                ),
                 Text(
-                  "Erwan Hubert",
-                  style: TextStyle(fontFamily: "SourceSansPro-Regular", fontSize: 28, color: Colors.teal.shade100, fontWeight: FontWeight.bold, letterSpacing: 2.5),
-                ), 
-              ),
-            ],
+                  'Kevin I',
+                  style: TextStyle(fontFamily: 'Pacifico', fontSize: 18, color: Colors.white),
+                ),
+                Text(
+                  'Délégué 0322',
+                  style: TextStyle(fontFamily: 'SourceSansPro', fontSize: 18, color: Colors.teal.shade100, letterSpacing: 2.5, fontWeight: FontWeight.bold),
+                ),
+                SizedBox(
+                  width: 200,
+                  child: Divider(
+                    height: 50,
+                    thickness: 3,
+                  ),
+                ),
+                SizedBox(
+                  width: 400,
+                  child: Container(
+                    margin: EdgeInsets.only(bottom: 20),
+                    color: Colors.white,
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Icon(
+                            Icons.call,
+                            color: Colors.teal,
+                          ),
+                        ),
+                        Text(
+                          " +262 693 25 24 23",
+                          style: TextStyle(color: Colors.teal, fontFamily: "SourceSansPro", fontSize: 20),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  width: 400,
+                  child: Container(
+                    color: Colors.white,
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Icon(
+                            Icons.email,
+                            color: Colors.teal,
+                          ),
+                        ),
+                        Text(
+                          " formation.etienne.re@gmail.com",
+                          style: TextStyle(color: Colors.teal, fontFamily: "SourceSansPro", fontSize: 20),
+                        )
+                      ],
+                    ),
+                  ),
+                )
+              ],
+            ),
           ),
         ),
       ),
-    ),
-  );
+    );
+  }
 }
