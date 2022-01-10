@@ -16,7 +16,7 @@ void main() {
                 ),
                 Text(
                   "Erwan H.",
-                  style: TextStyle(fontFamily: 'Pacifico', fontSize: 18, color: Colors.white),
+                  style: TextStyle(fontFamily: "Pacifico", fontSize: 18, color: Colors.white),
                 ),
               ],
             ),
